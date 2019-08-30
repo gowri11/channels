@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1><center>TataSky Subscription Form</center></h1>
+        <div class="container" align="center">
+                <form method="post">
+                    {%csrf_token %}
+                    {{form.as_p}}
+                    <input type="submit" value="subscribe">
+                </form>
+                </div>
+    </body>
+</html>

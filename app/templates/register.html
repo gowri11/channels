@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>        
+    </head>
+    <body>
+        <h1><center>Viewer Registration Form</center></h1>
+        <div class="container" align="center">
+        <form method="post">
+            {%csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="register">
+        </form>
+        </div>
+
+    </body>
+        <a href="/log/"> Login </a>
+  
+</html>
